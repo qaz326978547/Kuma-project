@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    filter: grayscale(50%)
+}
+
+@media (max-width: 767.98px) {
+    .bg {
+        height: 82vh;
+    }
+}
+
+//gotop
+
+.goTop-icon {
+    z-index: 100;
+    cursor: pointer;
+    color: $primary;
+    position: fixed;
+    font-size: 2rem;
+    bottom: 60px;
+    right: 40px;
+}

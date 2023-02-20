@@ -1,0 +1,34 @@
+a,
+p {
+    text-decoration: none !important;
+    color: $primary !important;
+}
+
+
+
+html {
+    height: 100vh;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    border-radius: 30px !important;
+}
+
+
+.ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
