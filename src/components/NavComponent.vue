@@ -23,6 +23,13 @@ export default {
             id: ''
         }
     },
+    watch: {
+        $route() {
+            const { id } = this.$route.params
+            this.id = id
+            console.log(id)
+        }
+    },
     mounted() {
         this.path = this.$route.name;
         const { id } = this.$route.params
