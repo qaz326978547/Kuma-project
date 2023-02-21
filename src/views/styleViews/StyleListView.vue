@@ -1,6 +1,5 @@
+<!-- 風格產品內頁 -->
 <template>
-    -->
-    <!-- 風格產品內頁 -->
     <nav-component></nav-component>
 
 
@@ -9,7 +8,7 @@
     <div class="container">
         <div class="row gy-3 ">
             <div class=" col-md-8 ">
-                <img @click="showMultiple" :src="portfolio.imageUrl" alt="">
+                <img @click="showMultiple" :src="portfolio.imageUrl" alt="" class="main-img">
                 <div class="row mt-3 g-3">
                     <div class="col-4" v-for="item in portfolioList" :key="item.id">
                         <img :src="item.imageUrl" alt="">
@@ -143,7 +142,6 @@ export default {
             this.getDataList()
             this.getPortfolioList()
             this.getRelatedItem()
-            this.changeLink()
         }
     },
     mounted() {
@@ -152,7 +150,6 @@ export default {
         this.getRelatedItem() //推薦風格
         this.getAllPortfolio()//lightbox
 
-        this.changeLink()
     }
 }
 
