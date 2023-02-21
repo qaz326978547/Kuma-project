@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,b as s}from"./index-9860e3b4.js";const _={},c={class:"colorView text-center",style:{height:"100vh"}},n=s("h2",null,"色系",-1),r=[n];function a(l,i){return t(),o("div",c,r)}const h=e(_,[["render",a]]);export{h as default};
