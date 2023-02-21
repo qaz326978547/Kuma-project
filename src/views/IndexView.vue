@@ -4,15 +4,15 @@
   <swiper :slides-per-view="1" :space-between="50" :modules="modules" navigation :pagination="{ clickable: true }">
     <swiper-slide>
       <div class="bg" style="
-      background-image: url('/images/02.png');
-      ">
+                  background-image: url('./images/02.png');
+                  ">
         <div>
           <div class="row justify-content-center">
             <div class="col-6  text-white flex-column d-flex align-items-center justify-content-center" style="height: 100vh;
-              margin-top: -5rem;">
+                          margin-top: -5rem;">
               <div class="p-5 text-center" style="background: rgb(0, 0, 0,30%);">
-                <h2>卓越品質 歷久不衰</h2>
-                <h3>讓經營成為享受</h3>
+                <h2 class="index-title">卓越品質 歷久不衰</h2>
+                <h3 class="index-title">讓經營成為享受</h3>
               </div>
               <div>
                 <p class="mt-8 text-white">酷碼期待與您的合作</p>
@@ -25,14 +25,14 @@
     </swiper-slide>
     <swiper-slide>
       <div class="bg" style="
-      background-image: url('/images/01.png');">
+                  background-image: url('./images/01.png');">
         <div>
           <div class="row justify-content-center">
             <div class="col-6  text-white flex-column d-flex align-items-center justify-content-center" style="height: 100vh;
-              margin-top: -5rem;">
+                          margin-top: -5rem;">
               <div class="p-5 text-center" style="background: rgb(0, 0, 0,30%);">
-                <h2>卓越品質 歷久不衰</h2>
-                <h3>讓經營成為享受</h3>
+                <h2 class="index-title">卓越品質 歷久不衰</h2>
+                <h3 class="index-title">讓經營成為享受</h3>
               </div>
               <div>
                 <p class="mt-8 text-white">酷碼期待與您的合作</p>
@@ -43,7 +43,6 @@
       </div>
     </swiper-slide>
   </swiper>
-
 </template>
 
 <script>

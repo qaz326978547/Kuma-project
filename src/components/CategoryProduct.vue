@@ -1,7 +1,6 @@
+<!-- 風格產品列表 -->
 <template>
-    <!-- 風格產品列表 -->
-    <vue-easy-lightbox :visible="visible" :imgs="dataList.imageUrl" :index="index"
-        @hide="handleHide"></vue-easy-lightbox>
+    <vue-easy-lightbox :visible="visible" :imgs="dataList.imageUrl" :index="index" @hide="handleHide"></vue-easy-lightbox>
     <div class="  col-12 col-sm-6 col-md-4 col-xl-3 ">
         <div class="img-container">
             <img class="image" :src="dataList.imageUrl" style="width:100%" alt="">
@@ -22,11 +21,10 @@
             <p class="ellipsis">{{ dataList.content }}</p>
         </router-link>
     </div>
-
-
 </template>
 
 <script>
+
 import VueEasyLightbox from 'vue-easy-lightbox'
 
 export default {
@@ -43,7 +41,6 @@ export default {
             imgs: '',  // Img Url , string or Array
             visible: false,
             index: 0,   // default
-            mouseEvent: false
         }
     },
     components: {
@@ -51,7 +48,6 @@ export default {
     },
     methods: {
         showSingle() {
-            this.imgs = 'http://via.placeholder.com/350x150'
             this.show()
         },
         show() {

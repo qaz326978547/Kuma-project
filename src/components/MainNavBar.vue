@@ -31,8 +31,8 @@
         <!-- RWD -->
     </nav>
     <ul class="m-0  navlink-container d-flex 
-    flex-column text-center align-items-center d-md-none 
-    my-md-auto px-0" :class="{ 'navlink-rwd': navBarisOpen }">
+                                    flex-column text-center align-items-center d-md-none 
+                                    my-md-auto px-0" :class="{ 'navlink-rwd': navBarisOpen }">
         <li class="nav-item">
             <RouterLink @click="closeNavBar" class="nav-link p-3" to="/">首頁</RouterLink>
         </li>
@@ -49,7 +49,6 @@
             <p class="text-center p-3">BOXING CLUB</p>
         </li>
     </ul>
-
 </template>
 
 <script>
